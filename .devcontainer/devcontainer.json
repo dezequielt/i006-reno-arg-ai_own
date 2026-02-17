@@ -1,0 +1,9 @@
+{
+  "name": "reno-arg-ai",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "fastapi-app",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [8000],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
